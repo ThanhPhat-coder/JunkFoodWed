@@ -661,8 +661,8 @@
   color: #EE1212;
 }
 
-.main .kem-trang-mieng {
-  margin-bottom: 64px;
+.main .kem-trang-mieng_content {
+  margin-bottom: -10px; 
   display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Inter';
@@ -672,7 +672,7 @@
 }
 
 .main .khampha_trang_mieng {
-  margin-right: 170px;
+  margin: 70px 170px 0 0;
   align-self: center;
   overflow-wrap: break-word;
   font-family: 'Inter';
@@ -808,8 +808,8 @@
 .main .khoai-tay {
   background: url('../assets/images/khoai_tay.png') 50% / cover no-repeat;
   position: absolute;
-  right: -175px;
-  bottom: 9px;
+  right: -145px;
+  bottom: 20px;
   width: 188px;
   height: 174px;
 }
@@ -1082,4 +1082,11 @@
   border-radius: 15px;
   text-align: center;
   padding-top: 5px;
+}
+
+.phan-an-evm, .burger-39-k, .combo-burger,
+.ga-ran, .nuoc-uong, .kem-trang-mieng,
+.phan-an-tre-em, .burger, .khoai-tay{
+  border-radius: 9px;
+  border: 3px solid orange;
 }
