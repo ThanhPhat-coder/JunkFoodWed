@@ -363,7 +363,7 @@
 }
 
 .main .khampha39k {
-  margin-left: 210px;
+  margin-left: 240px;
   align-self: center;
   overflow-wrap: break-word;
   font-family: 'Inter';
@@ -1071,4 +1071,15 @@
   display: flex;
   width: 1276px;
   box-sizing: border-box;
+}
+
+.khampha, .khampha39k, .khampha_burger, 
+.khampha_combo, .khampha_garan, .khampha_phantreem, 
+.khampha_thucuong, .khampha_trang_mieng, .khamphaEVM {
+  width: 130px;
+  height: 30px;
+  border: 2px solid red;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 5px;
 }
